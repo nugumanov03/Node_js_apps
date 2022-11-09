@@ -182,10 +182,14 @@ bot.onText(/\/kill/, msg => {
 				console.log("No error 12");
 				return;
 			} 
-			console.log("No error 14");
+			if(id !== victim_id){
+				bot.sendMessage(msg.chat.id, "Это не ваша жертва");
+				return;				
+			}
+				console.log("No error 14");
 
 				// var killer_killcount = killerSnap.val().killcount;
-				var killer_killcount = 3;
+				var killer_killcount = killerSnap.val().killcount;
 				var killerKillCountRef = ref(database ,'players/' + killer_id + '/killcount');
 				set(killerKillCountRef , parseInt(killer_killcount)+1)
 				console.log("No error 15");
