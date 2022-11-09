@@ -24,8 +24,8 @@ const database = getDatabase()
 
 const adminChatId =  784892442;
 const chages = 123123;
-const admins = ['nugumanov03'];
-const superAdmins = ['nugumanov03'];
+const admins = ['nugumanov03' , 'yernarbekbolat'];
+const superAdmins = ['nugumanov03' , 'yernarbekbolat'];
 
 const hellomsg = 'Для авторизации отправьте боту комманду /me и через пробел свой уникальный код, выданный нами. \nНапример: \n\n/me abc123';
 
@@ -769,7 +769,7 @@ bot.onText(/\/check_non_authorized/, msg => {
 
 Команды админа:
 
-/register photo (description - firstname, lastname, faculty, year) 
+Скнуть photo и добавить (description - firstname, lastname, faculty, year) 
 /delete player_id 
 /begin_game 
 /broadcast text (рассылка)
