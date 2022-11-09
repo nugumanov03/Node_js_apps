@@ -23,6 +23,7 @@ const database = getDatabase()
 
 
 const adminChatId =  784892442;
+const chages = 123123;
 const admins = ['nugumanov03'];
 const superAdmins = ['nugumanov03'];
 
