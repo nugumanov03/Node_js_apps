@@ -24,8 +24,8 @@ const database = getDatabase()
 
 const adminChatId =  784892442;
 const chage = 123123;
-const admins = ['nugumanov03' , 'yernarbekbolat'];
-const superAdmins = ['nugumanov03' , 'yernarbekbolat'];
+const admins = ['nugumanov03' , 'yernarbekbolat' , 'nurbekushka1'];
+const superAdmins = ['nugumanov03' , 'yernarbekbolat' , 'nurbekushka1'];
 
 const hellomsg = 'Для авторизации отправьте боту комманду /me и через пробел свой уникальный код, выданный нами. \nНапример: \n\n/me abc123';
 
